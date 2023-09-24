@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react'
 import { createRoot } from 'react-dom/client'
-import AppCanvas from '@/components/AppCanvas/AppCanvas'
+import AppCanvas from '@/app/App'
 
-function App() {
+function root() {
   useEffect(() => {
     const root = document.getElementById('root')
     if (root) {
@@ -21,4 +21,4 @@ function App() {
   return <div id="root" style={{ width: '100vw', height: '100vh' }}></div>;
 }
 
-export default App;
+export default root;

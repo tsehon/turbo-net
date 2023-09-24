@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Turbo Sim',
+  title: 'SquishySim',
   description: 'Driving simulator for the Turbo Net project',
 }
 

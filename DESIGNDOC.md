@@ -34,7 +34,7 @@ Components:
 - Stoplight mesh
 - Person (Tesla Bot)
     - maybe also do learning for this
-- 
+- Objects: some InstanceMesh
 
 Configurator:
 Configure the architecture of the NN 
